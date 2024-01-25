@@ -1,0 +1,314 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body { 
+    
+    height: 100vh;
+    margin: 0;
+    padding: 45px;
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+
+    
+    width: 100%;
+}
+
+.menu {
+
+   display: flex;
+    font-size: 16px;
+   font-family: 'Inter' , sans-serif;
+   font-weight: 500;
+   gap: 32px;
+   
+}
+
+.item__menu {
+
+    text-decoration: none;
+    color: #667085;
+}
+
+.botoes {
+
+    
+    
+    
+    color: #667085;
+    text-decoration: none;
+    
+   
+    
+    
+}
+
+
+.botao__1 {
+
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    color: #667085;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+
+
+
+.botao__2 {
+    
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    border-radius: 8px;
+    border: 1px solid #8E2424;
+    background: #8E2424;
+    margin-bottom: 0;
+    padding: 10px 18px;
+    text-decoration: none;
+    
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    
+}
+
+
+
+.texto__titulo {
+
+    
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color:#8E2424;
+    
+    
+
+}
+
+.titulo__1sessao {
+
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Inter' , sans-serif;
+    margin-bottom: 36px;
+}
+
+.texto__1sessao {
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter' , sans-serif;
+    color: #667085;
+    margin-bottom: 96px;
+    width: 791px;
+    margin-left: 5em;
+    
+    
+}
+
+.metricas {
+
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.INmetricas {
+
+    display: block;
+    width: 280px;
+    
+}
+
+.titulo__metricas {
+
+    font-family: 'Inter' , sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.subtitulo__metricas {
+
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+
+}
+
+.paragrafo__metricas {
+
+    font-family: 'Inter' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+
+    
+}
+
+.container__imagem {
+
+    width: 100% ;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 96px;
+    
+}
+
+.botao__vagas {
+
+    font-size: 14px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    background-color: #ff88887c;
+    color: #8E2424;
+    border-radius: 16px;
+    padding: 4px 12px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.titulo__vagas {
+
+    font-size: 36px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.paragrafo__vagas {
+
+    font-size: 20px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 64px
+
+
+}
+
+.imagem__vaga {
+
+    width: 100%
+}
+
+.retangulo1 {
+
+    border: 2px solid #EAECF0;
+    margin: 1em 256px;
+    padding: 2em;
+    border-radius: 16px;
+    width: 768px;
+    
+}
+
+.titulo__vaga {
+
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    margin-left: 256px;
+    font-size: 20px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+}
+
+.vaga__disponivel {
+
+    display: flex;
+    padding: 0 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+}
+
+.descricao__vaga {
+
+    display: inline;
+    float: left;
+    padding: 0 24px;
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    color: #667085;
+}
+
+.depoimento {
+    width: 100%;
+    margin-top: 96px;
+    border: 2px solid #EAECF0;
+    border-style: none;
+    padding: 2em;
+    border-radius: 16px;
+    width: 1216px;
+    background: #c319192b;
+}
+
+.paragrafo__depoimento {
+
+    font-size: 14px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 600;
+    color: #8E2424;
+    margin-bottom: 16px;
+}
+
+.titulo__depoimento {
+
+    font-size: 36px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+}
+
+.julia {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter' , sans-serif;
+    margin-top: 16px;
+}
+
+.textinho__depo {
+
+font-size: 14px;
+font-family: 'Inter' , sans-serif;
+font-weight: 400;
+color: #667085;
+padding-top: 4px;
+padding-bottom: 64px;
+
+}
